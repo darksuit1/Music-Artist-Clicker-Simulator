@@ -1,0 +1,14 @@
+D:\Apps\Music Artist\bin\Debug\Music Artist.exe.config
+D:\Apps\Music Artist\bin\Debug\Music Artist.exe
+D:\Apps\Music Artist\bin\Debug\Music Artist.pdb
+D:\Apps\Music Artist\bin\Debug\Guna.UI2.dll
+D:\Apps\Music Artist\obj\Debug\Music Artist.csproj.AssemblyReference.cache
+D:\Apps\Music Artist\obj\Debug\Music Artist.csproj.SuggestedBindingRedirects.cache
+D:\Apps\Music Artist\obj\Debug\Music_Artist.Form1.resources
+D:\Apps\Music Artist\obj\Debug\Music_Artist.Properties.Resources.resources
+D:\Apps\Music Artist\obj\Debug\Music Artist.csproj.GenerateResource.cache
+D:\Apps\Music Artist\obj\Debug\Music Artist.csproj.CoreCompileInputs.cache
+D:\Apps\Music Artist\obj\Debug\Music Artist.csproj.CopyComplete
+D:\Apps\Music Artist\obj\Debug\Music Artist.exe
+D:\Apps\Music Artist\obj\Debug\Music Artist.pdb
+D:\Apps\Music Artist\obj\Debug\Music_Artist.Form2.resources
