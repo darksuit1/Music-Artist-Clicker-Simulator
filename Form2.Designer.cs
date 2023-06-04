@@ -30,10 +30,10 @@
         {
             this.components = new System.ComponentModel.Container();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
+            this.label3 = new System.Windows.Forms.Label();
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.label1 = new System.Windows.Forms.Label();
             this.gotolabel = new Guna.UI2.WinForms.Guna2Button();
-            this.label3 = new System.Windows.Forms.Label();
             this.guna2DragControl1 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
             this.guna2BorderlessForm1 = new Guna.UI2.WinForms.Guna2BorderlessForm(this.components);
             this.guna2Panel1.SuspendLayout();
@@ -48,6 +48,18 @@
             this.guna2Panel1.Size = new System.Drawing.Size(300, 45);
             this.guna2Panel1.TabIndex = 2;
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.Transparent;
+            this.label3.Font = new System.Drawing.Font("Montserrat", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.White;
+            this.label3.Location = new System.Drawing.Point(15, 13);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(101, 18);
+            this.label3.TabIndex = 1;
+            this.label3.Text = "Найти Лейбл";
+            // 
             // listBox1
             // 
             this.listBox1.FormattingEnabled = true;
@@ -59,7 +71,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(127, 175);
+            this.label1.Location = new System.Drawing.Point(81, 175);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(35, 13);
             this.label1.TabIndex = 4;
@@ -84,18 +96,6 @@
             this.gotolabel.Text = "Вступить в лейбл";
             this.gotolabel.Click += new System.EventHandler(this.gotolabel_Click);
             // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.Transparent;
-            this.label3.Font = new System.Drawing.Font("Montserrat", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(15, 13);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(101, 18);
-            this.label3.TabIndex = 1;
-            this.label3.Text = "Найти Лейбл";
-            // 
             // guna2DragControl1
             // 
             this.guna2DragControl1.DockIndicatorTransparencyValue = 0.6D;
@@ -108,6 +108,7 @@
             this.guna2BorderlessForm1.ContainerControl = this;
             this.guna2BorderlessForm1.DockIndicatorTransparencyValue = 0.6D;
             this.guna2BorderlessForm1.DragForm = false;
+            this.guna2BorderlessForm1.TransparentWhileDrag = true;
             // 
             // Form2
             // 
